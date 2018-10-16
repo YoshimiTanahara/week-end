@@ -1,0 +1,207 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: seashell;
+  font-size: 130px;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  opacity: .8;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.mt{
+  margin-top: 50px;
+}
+
+body {
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+}
+
+.welcome {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: seashell;
+  margin-top: 70px;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+}
+
+.title {
+  margin-top: auto;
+  font-size: 90px;
+}
+
+.guideline {
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.guideline li {
+  margin-top: 30px;
+}
+
+.guideline li:first-child {
+  margin-top: 0;
+}
+
+.curriculum {
+  margin-top: 50px;
+}
+
+.sub-title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 80px;
+  color: seashell;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.img-box li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.img-box li:last-child {
+  margin-right: 0;
+}
+
+.img-box li img {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  border-radius: 20%;
+  filter: grayscale(80%);
+  border: 5px groove darkgray;
+}
+
+.img-box li span {
+  font-size: 39px;
+  margin-top: 20px;
+}
+
+.curriculum a {
+  background-color: darkorange;
+  border: 3px groove darkgray;
+  border-radius: 50px;
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  box-sizing: border-box;
+  transition-duration: 500ms;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 3px;
+}
+
+.curriculum a:hover {
+  color: black;
+  background-color: seashell;
+  transition-duration: 500ms;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 360px;
+  padding: 50px 0 40px;
+}
+
+.contact .form {
+  margin:50px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-left {
+  margin-right: 50px;
+}
+
+.form .name,
+.form .email {
+  height: 50px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  border-radius: 50px;
+  border: 5px groove darkgray;
+  }
+
+.form .name {
+  margin-bottom :20px;
+}
+
+.form-right .inquiry {
+  height: 120px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  border-radius: 50px;
+  border: 5px groove darkgray;
+}
+
+.contact button {
+  background-color: darkorange;
+  border: 3px groove darkgray;
+  border-radius: 50px;
+  color: black;
+  font-size: 33px;
+  font-weight: bold;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  box-sizing: border-box;
+  transition-duration: 500ms;
+  cursor: pointer;
+  padding: 15px 30px;
+  }
+
+.contact button:hover {
+  background-color: #fff;
+  transition-duration: 500ms;
+  }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: seashell;
+  font-size: 50px;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  opacity: .7;
+  margin-top: 50px;
+  padding: 15px 0;
+  }
