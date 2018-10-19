@@ -3,7 +3,7 @@ header {
   justify-content: center;
   background-color: black;
   color: seashell;
-  font-size: 130px;
+  font-size: 100px;
   font-variant: all-petite-caps;
   font-family: cursive;
   opacity: .8;
@@ -205,3 +205,73 @@ footer {
   margin-top: 50px;
   padding: 15px 0;
   }
+
+
+  /*小さいPC*/
+@media screen and (max-width: 1280px){
+  .img-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.img-box li {
+  width: 400px;
+  }
+
+  .img-box li img {
+    flex-direction: column;
+  justify-content: space-between;
+  }
+}
+
+/*タブ*/
+@media screen and (max-width: 960px){
+.contact {
+  height: 100%;
+  padding: 40px 0;
+
+}
+
+.contact .form {
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.form-left {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.form .name,
+.form .email {
+  width: 80%;
+}
+
+.form-right .inquiry {
+  width: 80%;
+}
+
+.contact button {
+  font-size: 30px;
+  padding: 10px 40px;
+  }
+}
+
+/*スマホ*/
+@media screen and (max-width: 480px){
+.welcome {
+  height: 400px;
+  }
+
+.title {
+  font-size: 50px;
+  }
+
+.guideline {
+  font-size: 40px;
+  }
+
+.sub-title {
+  font-size: 50px;
+  }
+}
