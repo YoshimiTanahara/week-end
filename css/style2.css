@@ -63,18 +63,15 @@ footer {
    /*小さいPC*/
 @media screen and (max-width: 1280px){
   a{ font-size: 50px;
-
   }
 }
 /*タブ*/
 @media screen and (max-width: 960px){
   a {font-size: 45px;
-
   }
 }
 /*スマホ*/
 @media screen and (max-width: 480px){
   a {font-size: 40%;
-
   }
 }
