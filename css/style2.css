@@ -26,15 +26,15 @@ body{
   font-family: cursive;
 }
 
+
 iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 158px;
   height: 555px;
-  width: 50%;
+  width: 60%;
   cursor: pointer;
-  margin-left: 355px;
+}
+
+.hoge {
+  text-align: center;
 }
 
 a{
@@ -45,4 +45,36 @@ a{
   color: seashell;
   display: flex;
   justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: seashell;
+  font-size: 50px;
+  font-variant: all-petite-caps;
+  font-family: cursive;
+  opacity: .7;
+  padding: 15px 0;
+  }
+
+
+   /*小さいPC*/
+@media screen and (max-width: 1280px){
+  a{ font-size: 50px;
+
+  }
+}
+/*タブ*/
+@media screen and (max-width: 960px){
+  a {font-size: 45px;
+
+  }
+}
+/*スマホ*/
+@media screen and (max-width: 480px){
+  a {font-size: 40%;
+
+  }
 }
