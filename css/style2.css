@@ -28,7 +28,7 @@ body{
 
 
 iframe {
-  height: 555px;
+  height: 315px;
   width: 60%;
   cursor: pointer;
 }
@@ -49,7 +49,7 @@ a{
 
 footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   background-color: black;
   color: seashell;
   font-size: 50px;
@@ -63,18 +63,20 @@ footer {
    /*小さいPC*/
 @media screen and (max-width: 1280px){
   a{ font-size: 50px;
-
   }
 }
 /*タブ*/
 @media screen and (max-width: 960px){
   a {font-size: 45px;
-
   }
 }
 /*スマホ*/
 @media screen and (max-width: 480px){
-  a {font-size: 40%;
-
+  a {
+  font-size: 40px;
+  }
+  
+  footer {
+  font-size: 45px;
   }
 }

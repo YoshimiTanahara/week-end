@@ -195,7 +195,7 @@ body {
 
 footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   background-color: black;
   color: seashell;
   font-size: 50px;
@@ -203,7 +203,8 @@ footer {
   font-family: cursive;
   opacity: .7;
   margin-top: 50px;
-  padding: 15px 0;
+  padding: 15px 15px;
+  width: 100%;
   }
 
 
@@ -259,6 +260,10 @@ footer {
 
 /*スマホ*/
 @media screen and (max-width: 480px){
+.fixed{
+  font-size: 80px;
+}
+
 .welcome {
   height: 400px;
   }
@@ -273,5 +278,9 @@ footer {
 
 .sub-title {
   font-size: 50px;
+  }
+
+footer {
+    font-size: 35px;
   }
 }
