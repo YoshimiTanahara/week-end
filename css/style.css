@@ -76,6 +76,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  margin-right:  50px;
 }
 
 .img-box li {
@@ -84,6 +85,7 @@ body {
   margin-right: 20px;
   text-align: center;
   font-family: cursive;
+  align-items: center;
 }
 
 .img-box li:last-child {
@@ -109,6 +111,7 @@ body {
   border: 3px groove darkgray;
   border-radius: 50px;
   color: black;
+  width: 80%;
   font-size: 38px;
   font-weight: bold;
   font-variant: all-petite-caps;
@@ -210,23 +213,42 @@ footer {
 
   /*小さいPC*/
 @media screen and (max-width: 1280px){
-  .img-box {
-    flex-direction: column;
-    align-items: center;
+
+.img-box li img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    filter: grayscale(80%);
+    border: 5px groove darkgray;
   }
 
 .img-box li {
   width: 400px;
   }
 
-  .img-box li img {
-    flex-direction: column;
-  justify-content: space-between;
-  }
+
+.img-box li img:last-lastchild {
+  margin-right: 0;
 }
 
 /*タブ*/
 @media screen and (max-width: 960px){
+.img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box li img {
+  width: 280px;
+  height: 300px;
+  }
+
+  .img-box li {
+  margin-right: 0px;
+}
+
 .contact {
   height: 100%;
   padding: 40px 0;
@@ -260,6 +282,12 @@ footer {
 
 /*スマホ*/
 @media screen and (max-width: 480px){
+.img-box {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .fixed{
   font-size: 80px;
 }
@@ -279,6 +307,20 @@ footer {
 .sub-title {
   font-size: 50px;
   }
+
+.img-box li img {
+  width: 300px;
+  height: 300px;
+  }
+  
+  .img-box li {
+  margin-right: 0px;
+}
+
+  .img-box li img {
+  justify-content: center;
+  }
+
 
 footer {
     font-size: 35px;
